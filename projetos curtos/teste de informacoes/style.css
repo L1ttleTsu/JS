@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+header {
+    background-color: darkred;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+header > h1 {
+    margin-top: 0px;
+}
+
+
+
+
+main {
+    background-color: rgb(255, 241, 224);
+    width: 80vw;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+input {
+    padding: 7px 5px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    width: 60vw;
+    height: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+input:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+#janelaInformacoes {
+    padding: 10px 10px 30px 10px;
+    background-color: darkred;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+#janelaInformacoes > h1 {
+    margin-top: 0px;
+}
+#janelaInformacoes > p {
+    margin: 10px;
+    font-size: 22px;
+}
+#enviarInformacoes {
+    display: block;
+    margin: 30px auto 0px auto; 
+    width: fit-content;
+    padding: 5px;   
+}
+
+
+
+
+footer {
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+footer > p {
+    margin: 0px;
+}
